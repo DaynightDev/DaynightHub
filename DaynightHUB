@@ -1,1 +1,256 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("ImageLabel")
+local Shadow1 = Instance.new("ImageLabel")
+local Topbar = Instance.new("ImageLabel")
+local MainTitle = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local execute = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local T1 = Instance.new("TextLabel")
+local D1 = Instance.new("TextLabel")
+local D2 = Instance.new("TextLabel")
+local D5 = Instance.new("TextLabel")
+local D3 = Instance.new("TextLabel")
+local D4 = Instance.new("TextLabel")
+local Credits = Instance.new("ImageLabel")
+local Shadow2 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local CreditsTopbar = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
 
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0.31283468, 0, 0.25305903, 0)
+MainFrame.Selectable = true
+MainFrame.Size = UDim2.new(0, 511, 0, 377)
+MainFrame.ZIndex = 2
+MainFrame.Image = "rbxassetid://4641149554"
+MainFrame.ImageColor3 = Color3.fromRGB(24, 24, 24)
+
+Shadow1.Name = "Shadow1"
+Shadow1.Parent = MainFrame
+Shadow1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow1.BackgroundTransparency = 1.000
+Shadow1.Position = UDim2.new(-0.0536689572, 0, -0.0578527264, 0)
+Shadow1.Size = UDim2.new(1.1029768, 0, 1.11237764, 0)
+Shadow1.Image = "rbxassetid://5028857084"
+Shadow1.ImageColor3 = Color3.fromRGB(24, 24, 24)
+Shadow1.SliceCenter = Rect.new(4, 4, 296, 296)
+
+Topbar.Name = "Topbar"
+Topbar.Parent = MainFrame
+Topbar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Topbar.BackgroundTransparency = 1.000
+Topbar.Position = UDim2.new(0, 0, -0.00017320193, 0)
+Topbar.Size = UDim2.new(1, 0, 0.114398547, 0)
+Topbar.ZIndex = 3
+Topbar.Image = "rbxassetid://4595286933"
+Topbar.ImageColor3 = Color3.fromRGB(10, 10, 10)
+Topbar.SliceCenter = Rect.new(4, 4, 296, 296)
+Topbar.Draggable = true
+
+MainTitle.Name = "MainTitle"
+MainTitle.Parent = Topbar
+MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainTitle.BackgroundTransparency = 1.000
+MainTitle.Position = UDim2.new(0.025779292, 0, 0.263350904, 0)
+MainTitle.Size = UDim2.new(0.641472876, 0, 0.458067358, 0)
+MainTitle.ZIndex = 4
+MainTitle.Font = Enum.Font.GothamBold
+MainTitle.Text = "DayNight Hub"
+MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+MainTitle.TextScaled = true
+MainTitle.TextSize = 14.000
+MainTitle.TextWrapped = true
+MainTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner.Parent = Topbar
+
+UICorner_2.Parent = MainFrame
+
+execute.Name = "execute"
+execute.Parent = MainFrame
+execute.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+execute.Position = UDim2.new(0.039138943, 0, 0.841666698, 0)
+execute.Size = UDim2.new(0.899999976, 0, 0.100000001, 0)
+execute.ZIndex = 55
+execute.Font = Enum.Font.Gotham
+execute.Text = ""
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextScaled = true
+execute.TextSize = 14.000
+execute.TextWrapped = true
+
+UICorner_3.Parent = execute
+
+TextLabel.Parent = execute
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0556642227, 0, 0.107871935, 0)
+TextLabel.Size = UDim2.new(0.886256158, 0, 0.759501278, 0)
+TextLabel.ZIndex = 4
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "execute"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+T1.Name = "T1"
+T1.Parent = MainFrame
+T1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+T1.BackgroundTransparency = 1.000
+T1.Position = UDim2.new(0.0453487635, 0, 0.16335094, 0)
+T1.Size = UDim2.new(0.906434298, 0, 0.0715175197, 0)
+T1.ZIndex = 4
+T1.Font = Enum.Font.GothamBold
+T1.Text = "Warning"
+T1.TextColor3 = Color3.fromRGB(255, 255, 255)
+T1.TextScaled = true
+T1.TextSize = 14.000
+T1.TextWrapped = true
+T1.TextXAlignment = Enum.TextXAlignment.Left
+
+D1.Name = "D1"
+D1.Parent = MainFrame
+D1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D1.BackgroundTransparency = 1.000
+D1.Position = UDim2.new(0.0558257885, 0, 0.263350904, 0)
+D1.Size = UDim2.new(0.883313119, 0, 0.101722144, 0)
+D1.ZIndex = 4
+D1.Font = Enum.Font.Gotham
+D1.Text = "Report anything to our discord server if you get banned or frozen"
+D1.TextColor3 = Color3.fromRGB(255, 255, 255)
+D1.TextScaled = true
+D1.TextSize = 14.000
+D1.TextWrapped = true
+D1.TextXAlignment = Enum.TextXAlignment.Left
+
+D2.Name = "D2"
+D2.Parent = MainFrame
+D2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D2.BackgroundTransparency = 1.000
+D2.Position = UDim2.new(0.0539716817, 0, 0.377695262, 0)
+D2.Size = UDim2.new(0.883313179, 0, 0.100735709, 0)
+D2.ZIndex = 4
+D2.Font = Enum.Font.Gotham
+D2.Text = "If someone says mod the discord server will alert the mods"
+D2.TextColor3 = Color3.fromRGB(255, 255, 255)
+D2.TextScaled = true
+D2.TextSize = 14.000
+D2.TextWrapped = true
+D2.TextXAlignment = Enum.TextXAlignment.Left
+
+D5.Name = "D5"
+D5.Parent = MainFrame
+D5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D5.BackgroundTransparency = 1.000
+D5.Position = UDim2.new(0.0469667315, 0, 0.664901197, 0)
+D5.Size = UDim2.new(0.883313119, 0, 0.122656196, 0)
+D5.ZIndex = 4
+D5.Font = Enum.Font.Gotham
+D5.Text = "Join our discord server for see the full change log and any infomation"
+D5.TextColor3 = Color3.fromRGB(255, 255, 255)
+D5.TextScaled = true
+D5.TextSize = 14.000
+D5.TextWrapped = true
+
+D3.Name = "D3"
+D3.Parent = MainFrame
+D3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D3.BackgroundTransparency = 1.000
+D3.Position = UDim2.new(0.057885576, 0, 0.492583096, 0)
+D3.Size = UDim2.new(0.883313179, 0, 0.0504779294, 0)
+D3.ZIndex = 4
+D3.Font = Enum.Font.Gotham
+D3.Text = "If you die please execute the script again"
+D3.TextColor3 = Color3.fromRGB(255, 255, 255)
+D3.TextScaled = true
+D3.TextSize = 14.000
+D3.TextWrapped = true
+D3.TextXAlignment = Enum.TextXAlignment.Left
+
+D4.Name = "D4"
+D4.Parent = MainFrame
+D4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D4.BackgroundTransparency = 1.000
+D4.Position = UDim2.new(0.057885576, 0, 0.558896065, 0)
+D4.Size = UDim2.new(0.883313179, 0, 0.0504779294, 0)
+D4.ZIndex = 4
+D4.Font = Enum.Font.Gotham
+D4.Text = "Please use a alt"
+D4.TextColor3 = Color3.fromRGB(255, 255, 255)
+D4.TextScaled = true
+D4.TextSize = 14.000
+D4.TextWrapped = true
+D4.TextXAlignment = Enum.TextXAlignment.Left
+
+Credits.Name = "Credits"
+Credits.Parent = MainFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(1.01537216, 0, -0.000638753176, 0)
+Credits.Selectable = true
+Credits.Size = UDim2.new(0, 196, 0, 377)
+Credits.Visible = false
+Credits.ZIndex = 2
+Credits.Image = "rbxassetid://4641149554"
+Credits.ImageColor3 = Color3.fromRGB(24, 24, 24)
+
+Shadow2.Name = "Shadow2"
+Shadow2.Parent = Credits
+Shadow2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow2.BackgroundTransparency = 1.000
+Shadow2.Position = UDim2.new(-0.0536689572, 0, -0.0578527264, 0)
+Shadow2.Size = UDim2.new(1.1029768, 0, 1.11237764, 0)
+Shadow2.Image = "rbxassetid://5028857084"
+Shadow2.ImageColor3 = Color3.fromRGB(24, 24, 24)
+Shadow2.SliceCenter = Rect.new(4, 4, 296, 296)
+
+UICorner_4.Parent = Credits
+
+CreditsTopbar.Name = "CreditsTopbar"
+CreditsTopbar.Parent = Credits
+CreditsTopbar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CreditsTopbar.BackgroundTransparency = 1.000
+CreditsTopbar.Position = UDim2.new(0, 0, -0.00017320193, 0)
+CreditsTopbar.Size = UDim2.new(1, 0, 0.114398547, 0)
+CreditsTopbar.ZIndex = 3
+CreditsTopbar.Image = "rbxassetid://4595286933"
+CreditsTopbar.ImageColor3 = Color3.fromRGB(10, 10, 10)
+CreditsTopbar.SliceCenter = Rect.new(4, 4, 296, 296)
+
+TextLabel_2.Parent = CreditsTopbar
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0614935458, 0, 0.263350546, 0)
+TextLabel_2.Size = UDim2.new(0.850883663, 0, 0.458067358, 0)
+TextLabel_2.ZIndex = 4
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Credits"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_5.Parent = CreditsTopbar
+
+function executeSCRIPT()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/https://raw.githubusercontent.com/DaynightDev/DaynightHub/main/DaynightG1"))()
+end
+
+execute.MouseButton1Up:Connect(function()
+	if game.CoreGui:FindFirstChild("Booga Booga - Hybrid [Daynight Hub]") == nil then
+		ScreenGui.Enabled = false
+   	executeSCRIPT()
+	end
+end)
