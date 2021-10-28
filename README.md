@@ -1,7 +1,6 @@
 # DaynightHub
-Welcome to DaynightHub
+Welcome to DaynightHub the best hub for booga booga
 
-Key = "" Join our discord for the key
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DaynightDev/DaynightHub/main/DaynightHub", true))()
 
 Join our discord for more updates and subscribe to Siqnit
